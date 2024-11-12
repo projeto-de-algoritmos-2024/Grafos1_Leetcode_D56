@@ -1,6 +1,6 @@
 from collections import deque, defaultdict
 
-def findShortestCycle(n, edges):
+def findShortestCycle(self,n, edges):
     graph = defaultdict(list)
     for u, v in edges:
         graph[u].append(v)
@@ -17,7 +17,7 @@ def findShortestCycle(n, edges):
                     distances[neighbor] = dist + 1
                     queue.append((neighbor, dist + 1, node))
                 elif neighbor != parent:
-                    cycle_length = dist + 1
+                    cycle_length = dist + distances[neighbor] + 1
                     return cycle_length
         return float('inf')
     
@@ -30,4 +30,4 @@ def findShortestCycle(n, edges):
 n = 7
 edges = [[0,1],[1,2],[2,0],[3,4],[4,5],[5,6],[6,3]]
 
-print(findShortestCycle(n, edges))
+print(findShortestCycle(object,n, edges))
