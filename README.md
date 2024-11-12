@@ -30,10 +30,10 @@ Este projeto consiste na resolução de um problema específico de grafos do Lee
 ![2608 Shortest Cycle in a Graph](./2608_Shortest%20Cycle%20in%20a%20Graph//2608_Succes.png)
 
 ### Find if Path Exists in Graph
-![Find if Path Exists in Graph](./1971_Find_if_Path_Exists_in_Graph/)
+![Find if Path Exists in Graph](./1971_Find_if_Path_Exists_in_Graph/1971_succes.png)
 
 ### Find the Town Judge
-![Find the Town Judge](./997_Find_The_Town_Judge/997_Success.png)
+![Find the Town Judge](./997_Find_The_Town_Judge/997_success.png)
 
 
 
