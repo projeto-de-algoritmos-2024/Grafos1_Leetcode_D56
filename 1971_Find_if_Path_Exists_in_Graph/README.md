@@ -1,37 +1,37 @@
-Aqui está o README em Markdown para o problema "Longest Cycle in a Graph" no LeetCode.
+# Find if Path Exists in Graph
 
----
-
-# Longest Cycle in a Graph
-
-**Problema disponível no LeetCode:** [Longest Cycle in a Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/)
+**Problema disponível no LeetCode:** [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/)
 
 ## Descrição
 
-Dado um grafo dirigido representado por \( n \) nós (numerados de 0 a \( n - 1 \)) e uma lista onde cada nó aponta para exatamente um nó (ou seja, um grafo dirigido onde cada nó tem no máximo uma saída), encontre o comprimento do ciclo mais longo contido no grafo. Se não houver ciclo, retorne -1.
+Dado um grafo não-direcionado com \( n \) nós numerados de \( 0 \) a \( n - 1 \) e uma lista de arestas, determine se existe um caminho entre dois nós específicos, `source` e `destination`.
 
-Um **ciclo** é uma sequência de nós onde o primeiro e o último nó são o mesmo, e cada par consecutivo de nós é uma aresta no grafo. O comprimento de um ciclo é o número de arestas que ele contém.
+Cada aresta conecta dois nós, e é possível se mover bidirecionalmente entre os nós conectados. Retorne `true` se existir um caminho de `source` a `destination` e `false` caso contrário.
 
 ### Exemplo
 
 **Entrada:**
 ```plaintext
-edges = [3,3,4,2,3]
+n = 3
+edges = [[0,1],[1,2],[2,0]]
+source = 0
+destination = 2
 ```
 
 **Saída:**
 ```plaintext
-3
+true
 ```
 
 **Explicação:**  
-O grafo possui um ciclo de comprimento 3: `2 → 4 → 3 → 2`.
+Existe um caminho entre o nó 0 e o nó 2.
 
 ### Restrições
 
-- \( 2 <= n <= 10^5 \)
-- \( edges.length == n \)
-- \(-1 <= edges[i] < n\)
-- \( edges[i] != i \), para qualquer índice válido \( i \).
-
-#
+- \( 2 <= n <= 2 \times 10^5 \)
+- \( 0 <= edges.length <= 2 \times 10^5 \)
+- \( edges[i].length == 2 \)
+- \( 0 <= u, v < n \)
+- \( u != v \)
+- \( source != destination \)
+- Não há arestas duplicadas.
