@@ -14,6 +14,7 @@ def findShortestCycle(n, edges):
             node, parent = queue.popleft()
             for neighbor in graph[node]:
                 if neighbor not in visited: 
+                    visited.add(neighbor) 
                     queue.append((neighbor, node))
                 elif neighbor != parent:
                     
