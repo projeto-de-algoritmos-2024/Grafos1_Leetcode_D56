@@ -18,6 +18,6 @@ class Solution(object):
             cursos[x].append(y)
         visitado = [None] * numCourses
         for i in range(numCourses):
-            if dfs(cursos, visitado, i):
+            if not self.dfs(cursos, visitado, i):
                 return False
         return True
