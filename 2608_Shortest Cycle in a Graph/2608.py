@@ -7,7 +7,6 @@ def findShortestCycle(self,n, edges):
         graph[v].append(u)
 
     shortest_cycle = float('inf')
-    
     for i in range(n):
         queue = deque([(i, 0, -1)])
         distances = [-1] * n
