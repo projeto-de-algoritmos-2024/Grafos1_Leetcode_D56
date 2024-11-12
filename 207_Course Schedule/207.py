@@ -1,5 +1,9 @@
 class Solution(object):
     def dfs(self, cursos, visitado, no):
+            if visitado[no] is False:
+                return False
+            if visitado[no] is True: 
+                return True
             visitado[no] = False
             for vizinho in cursos[no]:
                 if self.dfs(cursos, visitado, vizinho) == False:
