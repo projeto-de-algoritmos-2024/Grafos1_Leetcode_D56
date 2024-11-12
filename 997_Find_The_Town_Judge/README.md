@@ -1,7 +1,3 @@
-Aqui está o README formatado em Markdown para o problema **997. Find the Town Judge**:
-
----
-
 # Find the Town Judge
 
 **Problema disponível no LeetCode:** [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/)
@@ -73,3 +69,11 @@ Neste caso, a pessoa 3 confia em 1, e a pessoa 1 confia em 3. Portanto, ninguém
 - Todos os pares de confiança são únicos.
 - \( a_i != b_i \)
 - \( 1 <= a_i, b_i <= n \)
+
+## Solução
+
+Para resolver este problema, podemos usar uma abordagem de contagem baseada nas duas condições principais:
+
+1. O juiz não deve confiar em ninguém, então ele terá 0 saídas de confiança.
+2. Todos devem confiar no juiz, então ele terá \( n - 1 \) entradas de confiança.
+

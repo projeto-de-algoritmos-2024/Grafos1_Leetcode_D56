@@ -19,6 +19,7 @@ Este projeto consiste na resolução de um problema específico de grafos do Lee
 | 2608  |  [Shortest Cycle in a Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/) | Difícil | [Caio Berg](https://github.com/Caio-bergbjj) |
 | 207  |  [Course Schedule](https://leetcode.com/problems/course-schedule/) | Médio | [Thiago Freitas](https://github.com/thiagorfreitas) |
 | 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | Fácil | [Caio Berg](https://github.com/Caio-bergbjj) |
+| 997  |  [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/) | Fácil | [Thiago Freitas](https://github.com/thiagorfreitas) |
 
 ## Screenshots
 
@@ -30,6 +31,9 @@ Este projeto consiste na resolução de um problema específico de grafos do Lee
 
 ### Find if Path Exists in Graph
 ![Find if Path Exists in Graph](./1971_Find_if_Path_Exists_in_Graph/)
+
+### Find the Town Judge
+![Find the Town Judge](./997_Find_The_Town_Judge/997_Success.png)
 
 
 
