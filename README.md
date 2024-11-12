@@ -1,37 +1,28 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
-
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
 # NomedoProjeto
 
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 1<br>
+**Conteúdo da Disciplina**: Grafos 1<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 20/0015753  |  Caio Berg Carlos Leite |
+| 20/0028154 |  Thiago Ribeiro Freitas |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Este projeto consiste na resolução de um problema específico de grafos do LeetCode, utilizando a linguagem Python para garantir desempenho e clareza na solução. A proposta é modificar pesos das arestas para alcançar o objetivo especificado no problema, explorando estruturas de dados otimizadas.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
+|Problema | Descrição | Dificuldade|
+| -- | -- | -- |
+| 2608  |  Shortest Cycle in a Graph | Difícil |
+| 207 | Cors Schedule| Média |
+
+
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
+**Linguagem**: Python<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 
 ## Uso 
