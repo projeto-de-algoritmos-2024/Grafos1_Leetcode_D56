@@ -24,6 +24,9 @@ Este projeto consiste na resolução de um problema específico de grafos do Lee
 ### Course Schedule
 ![207 Course Schedule](./207_Course_Schedule/207_Success.png)
 
+### Shortest Cycle in a Graph
+![2608 Shortest Cycle in a Graph](./2608_Shortest%20Cycle%20in%20a%20Graph//2608_Succes.png)
+
 
 ## Instalação 
 **Linguagem**: Python<br>
