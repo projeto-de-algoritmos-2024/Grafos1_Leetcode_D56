@@ -5,26 +5,23 @@ def findShortestCycle(self,n, edges):
     for u, v in edges:
         graph[u].append(v)
         graph[v].append(u)
+
+    shortest_cycle = float('inf')
     
-    def bfs(start):
-        queue = deque([(start, 0, -1)])
-        distances = {start: 0}
+    for i in range(n):
+        queue = deque([(i, 0, -1)])
+        distances = [-1] * n
+        distances[i] = 0
         
         while queue:
             node, dist, parent = queue.popleft()
             for neighbor in graph[node]:
-                if neighbor not in distances:
+                if distances[neighbor] == -1: 
                     distances[neighbor] = dist + 1
                     queue.append((neighbor, dist + 1, node))
                 elif neighbor != parent:
-                    cycle_length = dist + distances[neighbor] + 1
-                    return cycle_length
-        return float('inf')
-    
-    
-    shortest_cycle = float('inf')
-    for i in range(n):
-        shortest_cycle = min(shortest_cycle, bfs(i))
+                    cycle_length = distances[node] + distances[neighbor] + 1
+                    shortest_cycle = min(shortest_cycle, cycle_length)
     return -1 if shortest_cycle == float('inf') else shortest_cycle
 
 n = 7
